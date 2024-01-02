@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  background-color: #352F44;
+}
+
+.logo-img{
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 27px 7px 27px 27px;
+}
+
+.navigation-bar{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.nav-head{
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: auto;
+ margin-top: 40px;
+}
+.nav-elem{
+  margin-top: 30px;
+ margin-right: 150px;
+  padding: 10px;
+}
+
+main{
+  background-image: url('/images.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  padding: 50px 200px;
+  color: white;
+}
+.main-head{
+  margin: 0;
+  letter-spacing: 1;
+  font-size: 46px;
+  margin-bottom: 50px;
+}
+
+.main-list > li{
+  font-size: 18px;
+  line-height: 19px;
+  padding-bottom: 20px;
+}
+
+.main-list > li::marker{
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
